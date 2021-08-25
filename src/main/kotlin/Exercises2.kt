@@ -42,11 +42,11 @@ fun question3() {
 
 fun question4() {
     // Which text is going to be written?
-    val user1a = User2("Carlos", "1234")
-    val user1b = user1a.copy()
-    user1b.name = "John"
-    user1b.password = "4321"
+    val user2a = User2("Carlos", "1234")
+    val user2b = user2a.copy()
+    user2b.name = "John"
+    user2b.password = "4321"
 
-    println("user1a -> My name is ${user1a.name} and my password is ${user1a.password}")
-    println("user1b -> My name is ${user1b.name} and my password is ${user1b.password}")
+    println("user1a -> My name is ${user2a.name} and my password is ${user2a.password}")
+    println("user1b -> My name is ${user2b.name} and my password is ${user2b.password}")
 }
